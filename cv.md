@@ -52,3 +52,8 @@ function isDivideBy(number, a, b) {
   - Profession “Front-end Developer”, 05/06 2019 – 11/14 2019. [Certificate](https://assets.htmlacademy.ru/certificates/profession/5/625447.pdf?1579507998&_ga=2.27299903.2015208606.1662557287-2009764206.1657919392).
 - **Udemy**
    - Next.js & React - The Complete Guide (Maximilian Schwarzmüller), 2022
+
+## Languages
+
+- Russian - native speaker
+- English - A2 (B1 in process)
