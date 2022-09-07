@@ -32,3 +32,14 @@ development company.
 - NextJS
 - NodeJS
 - PHP
+
+## Code Examples
+
+```javascript 
+function isDivideBy(number, a, b) {
+  if(Math.abs(number/a)%1 === 0 && Math.abs(number/b)%1===0) {
+    return true;
+  }
+   return false;
+}
+ ```
