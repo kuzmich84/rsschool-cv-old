@@ -21,3 +21,14 @@ I'm 38 years old. I work as telecommunications engineer at MegaFon company. In f
 development company.  
 
 **My strengths**: hard-working, goal-oriented, flexible, organized, a team-player, responsible, dependable, problem-solver. 
+
+## Skills
+
+- HTML
+- CSS/ SASS/ LESS
+- JavaScript (Fundamentals, ES6+)
+- Git/GitHub
+- React
+- NextJS
+- NodeJS
+- PHP
