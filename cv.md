@@ -14,3 +14,9 @@ _I'm a Junior Front-End Web Developer_
   - **E-mail**: kudim84@gmail.com
   - **GitHub**: [Dmitry Kuchukov (@kuzmich84)](https://github.com/kuzmich84)
   - **Telegram**: [dmitry_kuchukov](https://t.me/dmitry_kuchukov)
+## Profile
+
+I'm 38 years old. I work as telecommunications engineer at MegaFon company. In free time I like to develop web sites. Now front-end development is my hobby. In the future I would like it to become my main job. At the moment I help my friend support his commercial web projects. My goal is to structure my own and gain new knowledge for working in a web 
+development company.  
+
+**My strengths**: hard-working, goal-oriented, flexible, organized, a team-player, responsible, dependable, problem-solver. 
