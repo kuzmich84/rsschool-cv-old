@@ -1,5 +1,222 @@
 @import "_normalize";
+@import "_mixins";
 @import "_global";
 @import "_fonts";
-@import "_mixins";
 
+.header {
+  margin-bottom: 70px;
+}
+
+.header-content,
+.main-content,
+.footer-content {
+  max-width: 1215px;
+  margin: 0 auto;
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-wrapper h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.menu-list {
+  @include reset-list;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-item a {
+  @include set-roboto-regular;
+  font-size: 16px;
+  line-height: 28px;
+  color: $primaryColor;
+  cursor: pointer;
+  margin-right: 40px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.list-item:last-child a {
+  margin-right: 0;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  @include set-roboto-bold;
+  font-size: 64px;
+  color: $primaryColor;
+  line-height: 70px;
+  width: 50%;
+}
+
+.about-subtitle {
+  color: $orange-text;
+}
+
+.profile-text {
+  @include set-roboto-regular;
+
+  color: $secondarycolor;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.cv-link {
+  @include set-roboto-regular;
+
+  color: $primaryColor;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.cv-link span {
+  margin-right: 15px;
+}
+
+.about,
+.skills,
+.education,
+.languages,
+.code,
+.contacts {
+  margin-bottom: 70px;
+}
+
+.skills h2,
+.education h2,
+.languages h2,
+.contacts h2,
+.code h2 {
+  @include set-roboto-bold;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: $sub-title;
+  letter-spacing: 4px;
+  margin-bottom: 35px;
+}
+
+.skill-list,
+.languages-list {
+  @include reset-list;
+}
+
+.skill-list-item,
+.languages-list-item {
+  @include set-roboto-bold;
+
+  font-size: 24px;
+  line-height: 26px;
+  margin: 20px 0;
+  border-bottom: 1px solid $borderColor;
+}
+
+.education-list,
+.contacts-list {
+  @include reset-list;
+}
+
+.education-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-desc p {
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 0;
+}
+
+.education-list-item h3 {
+  @include set-roboto-bold;
+
+  margin-bottom: 5px;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.contacts-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contacts-list-item img {
+  margin-right: 20px;
+}
+
+.contacts-list-item a {
+  color: $secondarycolor;
+  font-size: 20px;
+  line-height: 22px;
+
+  &:hover {
+    color: $orange-text;
+  }
+
+  &:active {
+    color: $primaryColor;
+    opacity: 0.4;
+  }
+}
+
+.code pre {
+  background-color: #efefef;
+}
+
+.footer {
+  background-color: $primaryColor;
+  color: $white;
+  padding: 40px 0;
+}
+
+.footer-list {
+  @include reset-list;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list-item {
+  font-size: 20px;
+}
+
+.footer-list-item a {
+  color: $white;
+}
+
+.about-avatar {
+  display: block;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(to top, #ffffff 10%, transparent 20%);
+  }
+}

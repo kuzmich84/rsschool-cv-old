@@ -81,7 +81,7 @@ module.exports = {
   output: {
     filename: `./js/${filename("js")}`,
     assetModuleFilename: "img/[hash][ext][query]",
-    clean: true,
+    clean: process.env.NODE_ENV === "production",
   },
   devtool: mode === "development" ? `source-map` : false,
   devServer: {
